@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Comidita</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+img {
+width:400px ;
+height:300px;
+display:block;
+margin:auto}
+h4 {
+text-align:center}
+b {
+color:#1798A2}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Me</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Inicio.html">Inicio</a></li>
+          <li><a href="Sobre.html">Sobre mi</a></li>
+          <li><a href="Contactar.html">Contactar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+
+
+  <!-- Header -->
+  <header id="index">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <div class="w3-container">
+    <h1><b>Comidas y mis preparaciones .</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">Todas las comidas</button>
+    </div>
+    </div>
+  </header>
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="hamb.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Hamburgesa del P.V</b></p>
+        <p>No la recomiendo ,hay mejores.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="hamb2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Hamburgesa del Vips </b></p>
+        <p>Muy rica ,una de las mejores</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="hamb3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Hamburgesa de tudela</b></p>
+        <p>Muy grande ,no me gusto el sabor.</p>
+      </div>
+    </div>
+	
+	
+	
+	  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="postre1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Helado </b></p>
+        <p>Super riroc,creo que era artesanal</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="postre2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Batido </b></p>
+        <p>No estaba masl pero hay mejores ,daban 1 helado gratis a la 5 compra.</p>
+      </div>
+    </div>	   
+	<div class="w3-third w3-container">
+      <img src="gofre.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Super desayuno</b></p>
+        <p>Es una cafeteria/restaurante ecologico ,cuida el medio ambiente y tiene comida con mucha calidad</p>
+      </div>
+    </div>
+		
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="cordero.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Cordero</b></p>
+        <p>Muy rico</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="gamba.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Gamba</b></p>
+        <p>En arroz meloso,todo en su punto.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="comida ita.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Bufet italiano</b></p>
+        <p>No estaba mal,pero hay bufets mas variados,me gusta la comida italiana pero esta no era tan italiana.</p>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>Mas info</h3>
+      <p>He cogido esta plantilla de w3schools</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Sigueme en tik tok para ver mas contenido</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+		
+		<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@aizasr/video/7181071745862978822" data-video-id="7181071745862978822" style="max-width: 400px;min-width: 200px;" > <section> <a target="_blank" title="@aizasr" href="https://www.tiktok.com/@aizasr?refer=embed">@aizasr</a> <p>no me se el baile jaja</p> <a target="_blank" title="♬ original sound - 🫥" href="https://www.tiktok.com/music/original-sound-7144067937341901574?refer=embed">♬ original sound - 🫥</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+		
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULARES TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
